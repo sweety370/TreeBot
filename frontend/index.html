@@ -8,49 +8,88 @@
     content="width=device-width, initial-scale=1.0"
   />
 
-  <title>TreePots — Minecraft Bot Cloud</title>
+  <meta
+    name="theme-color"
+    content="#050807"
+  />
 
   <meta
     name="description"
     content="TreePots is a modern Minecraft bot management platform."
   />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <title>TreePots | Minecraft Bot Infrastructure</title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
 
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet"
   />
 
-  <link rel="stylesheet" href="./src/styles.css" />
+  <link
+    rel="stylesheet"
+    href="./src/styles.css"
+  />
 </head>
 
-  
-<script src="./src/app.js"></script>
-  
 <body>
 
-  <!-- Background -->
   <div class="background-grid"></div>
+
   <div class="background-glow glow-1"></div>
   <div class="background-glow glow-2"></div>
 
-  <!-- Navigation -->
+
+  <!-- NAVBAR -->
+
   <header class="navbar">
 
-    <a href="#" class="brand">
-      <span class="brand-icon">T</span>
-      <span class="brand-name">TreePots</span>
+    <a
+      href="#"
+      class="brand"
+      aria-label="TreePots home"
+    >
+
+      <span class="brand-icon">
+        T
+      </span>
+
+      <span>
+        TreePots
+      </span>
+
     </a>
 
+
     <nav class="nav-links">
-      <a href="#features">Features</a>
-      <a href="#locations">Locations</a>
-      <a href="#dashboard-preview">Dashboard</a>
+
+      <a href="#features">
+        Features
+      </a>
+
+      <a href="#locations">
+        Locations
+      </a>
+
+      <a href="#dashboard-preview">
+        Dashboard
+      </a>
+
     </nav>
 
+
     <div class="nav-actions">
+
       <button
         class="nav-login"
         id="loginButton"
@@ -66,30 +105,45 @@
       >
         Get started
       </button>
+
     </div>
 
   </header>
 
 
-  <!-- Hero -->
+  <!-- HERO -->
+
   <main>
 
     <section class="hero">
 
       <div class="hero-badge">
+
         <span class="status-dot"></span>
+
         Minecraft Bot Infrastructure
+
       </div>
 
+
       <h1 class="hero-title">
+
         Your Minecraft bots.
-        <span>Handled properly.</span>
+
+        <span>
+          Handled properly.
+        </span>
+
       </h1>
 
+
       <p class="hero-description">
+
         Create, manage and monitor your Minecraft bots
         from a clean, fast and modern workspace.
+
       </p>
+
 
       <div class="hero-actions">
 
@@ -100,6 +154,7 @@
         >
           Create your workspace
         </button>
+
 
         <button
           class="button-secondary"
@@ -112,20 +167,27 @@
       </div>
 
 
-      <!-- Hero visual -->
+      <!-- HERO DASHBOARD -->
+
       <div class="hero-visual">
 
         <div class="visual-topbar">
+
           <div class="window-dots">
+
             <span></span>
             <span></span>
             <span></span>
+
           </div>
+
 
           <div class="visual-url">
             app.treepots
           </div>
+
         </div>
+
 
         <div class="visual-content">
 
@@ -134,6 +196,7 @@
             <div class="visual-logo">
               T
             </div>
+
 
             <div class="visual-nav active">
               Dashboard
@@ -157,37 +220,76 @@
 
           </aside>
 
+
           <div class="visual-main">
 
             <div class="visual-heading">
+
               <div>
-                <h2>Your workspace</h2>
-                <p>Manage your Minecraft infrastructure.</p>
+
+                <h2>
+                  Your workspace
+                </h2>
+
+                <p>
+                  Manage your Minecraft infrastructure.
+                </p>
+
               </div>
 
-              <button class="visual-add">
+
+              <button
+                class="visual-add"
+                type="button"
+              >
                 + Add bot
               </button>
+
             </div>
+
 
             <div class="visual-stats">
 
               <div class="visual-stat">
-                <small>Active bots</small>
-                <strong>3</strong>
+
+                <small>
+                  Active bots
+                </small>
+
+                <strong>
+                  3
+                </strong>
+
               </div>
 
-              <div class="visual-stat">
-                <small>Online</small>
-                <strong>2</strong>
-              </div>
 
               <div class="visual-stat">
-                <small>Connections</small>
-                <strong>3</strong>
+
+                <small>
+                  Online
+                </small>
+
+                <strong>
+                  2
+                </strong>
+
+              </div>
+
+
+              <div class="visual-stat">
+
+                <small>
+                  Connections
+                </small>
+
+                <strong>
+                  3
+                </strong>
+
               </div>
 
             </div>
+
 
             <div class="visual-bot">
 
@@ -197,21 +299,32 @@
                   ◈
                 </div>
 
+
                 <div>
-                  <strong>SurvivalBot</strong>
+
+                  <strong>
+                    SurvivalBot
+                  </strong>
+
                   <small>
                     play.example.net
                   </small>
+
                 </div>
 
               </div>
 
+
               <div class="bot-online">
+
                 <span></span>
+
                 Online
+
               </div>
 
             </div>
+
 
             <div class="visual-bot">
 
@@ -221,18 +334,28 @@
                   ◈
                 </div>
 
+
                 <div>
-                  <strong>LobbyBot</strong>
+
+                  <strong>
+                    LobbyBot
+                  </strong>
+
                   <small>
                     lobby.example.net
                   </small>
+
                 </div>
 
               </div>
 
+
               <div class="bot-online">
+
                 <span></span>
+
                 Online
+
               </div>
 
             </div>
@@ -243,10 +366,39 @@
 
       </div>
 
+
+      <div class="trust">
+
+        <span>
+          <b class="check">
+            ✓
+          </b>
+          Simple management
+        </span>
+
+
+        <span>
+          <b class="check">
+            ✓
+          </b>
+          Live monitoring
+        </span>
+
+
+        <span>
+          <b class="check">
+            ✓
+          </b>
+          Automation ready
+        </span>
+
+      </div>
+
     </section>
 
 
-    <!-- Features -->
+    <!-- FEATURES -->
+
     <section
       class="section"
       id="features"
@@ -254,7 +406,9 @@
 
       <div class="section-heading">
 
-        <span>WHY TREEPOTS</span>
+        <span>
+          WHY TREEPOTS
+        </span>
 
         <h2>
           Everything around your bots,
@@ -262,14 +416,15 @@
         </h2>
 
         <p>
-          A focused control center designed for Minecraft
-          bot management and automation.
+          A focused control center designed
+          around Minecraft bot management.
         </p>
 
       </div>
 
 
       <div class="feature-grid">
+
 
         <article class="feature-card">
 
@@ -283,7 +438,7 @@
 
           <p>
             Start, stop and monitor your bots
-            without digging through complicated interfaces.
+            without complicated interfaces.
           </p>
 
         </article>
@@ -300,7 +455,7 @@
           </h3>
 
           <p>
-            Keep track of connections and bot states
+            Keep track of your connections
             from one clean dashboard.
           </p>
 
@@ -324,12 +479,14 @@
 
         </article>
 
+
       </div>
 
     </section>
 
 
-    <!-- Locations -->
+    <!-- LOCATIONS -->
+
     <section
       class="section"
       id="locations"
@@ -337,15 +494,17 @@
 
       <div class="section-heading">
 
-        <span>INFRASTRUCTURE</span>
+        <span>
+          INFRASTRUCTURE
+        </span>
 
         <h2>
-          Built for global infrastructure.
+          Choose your location.
         </h2>
 
         <p>
-          Example locations for the TreePots interface.
-          These are not live infrastructure measurements.
+          Example locations displayed for the interface.
+          These values are visual placeholders, not live measurements.
         </p>
 
       </div>
@@ -353,20 +512,33 @@
 
       <div class="location-grid">
 
-        <button class="location-card" type="button">
+
+        <button
+          class="location-card"
+          type="button"
+        >
 
           <div class="location-top">
-            <strong>Germany</strong>
+
+            <strong>
+              Germany
+            </strong>
 
             <span>
+
               <i></i>
+
               Excellent
+
             </span>
+
           </div>
+
 
           <div class="location-value">
             18ms
           </div>
+
 
           <div class="location-bottom">
             Frankfurt
@@ -375,20 +547,32 @@
         </button>
 
 
-        <button class="location-card" type="button">
+        <button
+          class="location-card"
+          type="button"
+        >
 
           <div class="location-top">
-            <strong>Netherlands</strong>
+
+            <strong>
+              Netherlands
+            </strong>
 
             <span>
+
               <i></i>
+
               Excellent
+
             </span>
+
           </div>
+
 
           <div class="location-value">
             21ms
           </div>
+
 
           <div class="location-bottom">
             Amsterdam
@@ -397,20 +581,32 @@
         </button>
 
 
-        <button class="location-card" type="button">
+        <button
+          class="location-card"
+          type="button"
+        >
 
           <div class="location-top">
-            <strong>Singapore</strong>
+
+            <strong>
+              Singapore
+            </strong>
 
             <span>
+
               <i></i>
+
               Good
+
             </span>
+
           </div>
+
 
           <div class="location-value">
             48ms
           </div>
+
 
           <div class="location-bottom">
             Singapore
@@ -419,20 +615,32 @@
         </button>
 
 
-        <button class="location-card" type="button">
+        <button
+          class="location-card"
+          type="button"
+        >
 
           <div class="location-top">
-            <strong>United States</strong>
+
+            <strong>
+              United States
+            </strong>
 
             <span>
+
               <i></i>
+
               Good
+
             </span>
+
           </div>
+
 
           <div class="location-value">
             55ms
           </div>
+
 
           <div class="location-bottom">
             Virginia
@@ -440,12 +648,14 @@
 
         </button>
 
+
       </div>
 
     </section>
 
 
-    <!-- Dashboard -->
+    <!-- DASHBOARD PREVIEW -->
+
     <section
       class="section dashboard-section"
       id="dashboard-preview"
@@ -453,15 +663,17 @@
 
       <div class="section-heading">
 
-        <span>CONTROL CENTER</span>
+        <span>
+          CONTROL CENTER
+        </span>
 
         <h2>
           A dashboard that feels alive.
         </h2>
 
         <p>
-          TreePots keeps the important information
-          visible without covering the screen in nonsense.
+          Keep the important information visible
+          without covering the screen in nonsense.
         </p>
 
       </div>
@@ -469,44 +681,97 @@
 
       <div class="dashboard-preview">
 
+
         <aside class="dashboard-sidebar">
 
           <div class="dashboard-brand">
-            <span>T</span>
+
+            <span>
+              T
+            </span>
+
             TreePots
+
           </div>
+
 
           <div class="dashboard-group-title">
             WORKSPACE
           </div>
 
-          <button class="dashboard-item active">
-            <span>⌂</span>
+
+          <button
+            class="dashboard-item active"
+            type="button"
+          >
+
+            <span>
+              ⌂
+            </span>
+
             Dashboard
+
           </button>
 
-          <button class="dashboard-item">
-            <span>◈</span>
+
+          <button
+            class="dashboard-item"
+            type="button"
+          >
+
+            <span>
+              ◈
+            </span>
+
             Bots
+
           </button>
 
-          <button class="dashboard-item">
-            <span>⚙</span>
+
+          <button
+            class="dashboard-item"
+            type="button"
+          >
+
+            <span>
+              ⚙
+            </span>
+
             Automation
+
           </button>
 
-          <button class="dashboard-item">
-            <span>▤</span>
+
+          <button
+            class="dashboard-item"
+            type="button"
+          >
+
+            <span>
+              ▤
+            </span>
+
             Logs
+
           </button>
+
 
           <div class="dashboard-group-title">
             ACCOUNT
           </div>
 
-          <button class="dashboard-item">
-            <span>◌</span>
+
+          <button
+            class="dashboard-item"
+            type="button"
+          >
+
+            <span>
+              ◌
+            </span>
+
             Settings
+
           </button>
 
         </aside>
@@ -514,9 +779,11 @@
 
         <div class="dashboard-content">
 
+
           <div class="dashboard-title">
 
             <div>
+
               <h3>
                 Dashboard
               </h3>
@@ -524,11 +791,14 @@
               <p>
                 Your Minecraft workspace
               </p>
+
             </div>
+
 
             <button
               class="small-primary"
               id="dashboardAddBot"
+              type="button"
             >
               + Add bot
             </button>
@@ -538,47 +808,89 @@
 
           <div class="dashboard-cards">
 
-            <div class="dashboard-card">
-              <small>Active bots</small>
-              <strong>3</strong>
-            </div>
 
             <div class="dashboard-card">
-              <small>Online bots</small>
-              <strong>2</strong>
+
+              <small>
+                Active bots
+              </small>
+
+              <strong>
+                3
+              </strong>
+
             </div>
 
+
             <div class="dashboard-card">
-              <small>Automations</small>
-              <strong>4</strong>
+
+              <small>
+                Online bots
+              </small>
+
+              <strong>
+                2
+              </strong>
+
             </div>
+
+
+            <div class="dashboard-card">
+
+              <small>
+                Automations
+              </small>
+
+              <strong>
+                4
+              </strong>
+
+            </div>
+
 
           </div>
 
 
           <div class="dashboard-table">
 
+
             <div class="table-head">
-              <span>Bot</span>
-              <span>Server</span>
-              <span>Status</span>
+
+              <span>
+                Bot
+              </span>
+
+              <span>
+                Server
+              </span>
+
+              <span>
+                Status
+              </span>
+
             </div>
 
 
             <div class="table-row">
 
               <div class="table-bot">
-                <div>◈</div>
+
+                <div>
+                  ◈
+                </div>
 
                 <span>
                   SurvivalBot
                 </span>
+
               </div>
+
 
               <span>
                 survival.example.net
               </span>
 
+
               <span class="table-online">
                 ● Online
               </span>
@@ -589,17 +901,23 @@
             <div class="table-row">
 
               <div class="table-bot">
-                <div>◈</div>
+
+                <div>
+                  ◈
+                </div>
 
                 <span>
                   LobbyBot
                 </span>
+
               </div>
+
 
               <span>
                 lobby.example.net
               </span>
 
+
               <span class="table-online">
                 ● Online
               </span>
@@ -610,22 +928,29 @@
             <div class="table-row">
 
               <div class="table-bot">
-                <div>◈</div>
+
+                <div>
+                  ◈
+                </div>
 
                 <span>
                   AFKBot
                 </span>
+
               </div>
+
 
               <span>
                 afk.example.net
               </span>
+
 
               <span class="table-offline">
                 ● Offline
               </span>
 
             </div>
+
 
           </div>
 
@@ -636,7 +961,8 @@
     </section>
 
 
-    <!-- Final CTA -->
+    <!-- CTA -->
+
     <section class="final-cta">
 
       <span class="section-label">
@@ -649,13 +975,16 @@
       </h2>
 
       <p>
-        Build your TreePots workspace and
-        manage your Minecraft bots from one place.
+        Build your TreePots workspace
+        and manage your Minecraft bots
+        from one place.
       </p>
+
 
       <button
         class="button-primary"
         id="finalSignup"
+        type="button"
       >
         Create your workspace
       </button>
@@ -665,13 +994,23 @@
   </main>
 
 
+  <!-- FOOTER -->
+
   <footer class="footer">
-    <span>TreePots © 2026</span>
-    <span>Minecraft Bot Infrastructure</span>
+
+    <span>
+      TreePots © 2026
+    </span>
+
+    <span>
+      Minecraft Bot Infrastructure
+    </span>
+
   </footer>
 
 
-  <!-- Login Modal -->
+  <!-- AUTH MODAL -->
+
   <div
     class="modal-overlay"
     id="authModal"
@@ -682,27 +1021,33 @@
       class="auth-modal"
       role="dialog"
       aria-modal="true"
+      aria-labelledby="authTitle"
     >
 
       <button
         class="modal-close"
         id="modalClose"
+        type="button"
         aria-label="Close"
       >
         ×
       </button>
 
+
       <div class="auth-icon">
         T
       </div>
 
-      <h2>
+
+      <h2 id="authTitle">
         Welcome to TreePots
       </h2>
+
 
       <p>
         Sign in to manage your Minecraft bots.
       </p>
+
 
       <button
         class="google-button"
@@ -712,33 +1057,47 @@
         Continue with Google
       </button>
 
+
       <div class="divider">
-        <span>or</span>
+        <span>
+          or
+        </span>
       </div>
 
-      <label class="input-label">
+
+      <label
+        class="input-label"
+        for="emailInput"
+      >
         Email
       </label>
+
 
       <input
         id="emailInput"
         class="auth-input"
         type="email"
-        placeholder="you@example.com"
         autocomplete="email"
+        placeholder="you@example.com"
       />
 
-      <label class="input-label">
+
+      <label
+        class="input-label"
+        for="passwordInput"
+      >
         Password
       </label>
+
 
       <input
         id="passwordInput"
         class="auth-input"
         type="password"
-        placeholder="Your password"
         autocomplete="current-password"
+        placeholder="Your password"
       />
+
 
       <button
         class="auth-submit"
@@ -748,16 +1107,24 @@
         Sign in
       </button>
 
+
       <div
         class="auth-message"
         id="authMessage"
       ></div>
 
+
       <div class="auth-footer">
+
         Don't have an account?
-        <button id="showSignup">
+
+        <button
+          id="showSignup"
+          type="button"
+        >
           Create one
         </button>
+
       </div>
 
     </div>
@@ -765,218 +1132,9 @@
   </div>
 
 
-  <script>
+  <!-- APP -->
 
-    const modal =
-      document.getElementById("authModal");
-
-    const openModalButtons = [
-      "loginButton",
-      "signupButton",
-      "heroSignup",
-      "heroDashboard",
-      "dashboardAddBot",
-      "finalSignup"
-    ];
-
-    function openAuth(){
-      modal.style.display = "flex";
-      modal.setAttribute("aria-hidden", "false");
-      document.body.style.overflow = "hidden";
-    }
-
-    function closeAuth(){
-      modal.style.display = "none";
-      modal.setAttribute("aria-hidden", "true");
-      document.body.style.overflow = "";
-    }
-
-    openModalButtons.forEach((id) => {
-      const button = document.getElementById(id);
-
-      if(button){
-        button.addEventListener("click", openAuth);
-      }
-    });
-
-    document
-      .getElementById("modalClose")
-      .addEventListener("click", closeAuth);
-
-    modal.addEventListener("click", (event) => {
-
-      if(event.target === modal){
-        closeAuth();
-      }
-
-    });
-
-    document.addEventListener("keydown", (event) => {
-
-      if(event.key === "Escape"){
-        closeAuth();
-      }
-
-    });
-
-
-    /* Location interaction */
-
-    document
-      .querySelectorAll(".location-card")
-      .forEach((card) => {
-
-        card.addEventListener("click", () => {
-
-          document
-            .querySelectorAll(".location-card")
-            .forEach((item) => {
-              item.classList.remove("selected");
-            });
-
-          card.classList.add("selected");
-
-        });
-
-      });
-
-
-    /* Dashboard preview interaction */
-
-    document
-      .querySelectorAll(".dashboard-item")
-      .forEach((item) => {
-
-        item.addEventListener("click", () => {
-
-          document
-            .querySelectorAll(".dashboard-item")
-            .forEach((other) => {
-              other.classList.remove("active");
-            });
-
-          item.classList.add("active");
-
-        });
-
-      });
-
-
-    /* Scroll reveal */
-
-    const revealObserver =
-      new IntersectionObserver(
-        (entries) => {
-
-          entries.forEach((entry) => {
-
-            if(entry.isIntersecting){
-
-              entry.target.classList.add("visible");
-
-              revealObserver.unobserve(
-                entry.target
-              );
-
-            }
-
-          });
-
-        },
-        {
-          threshold:.12
-        }
-      );
-
-    document
-      .querySelectorAll(
-        ".section, .final-cta"
-      )
-      .forEach((element) => {
-
-        element.classList.add("reveal");
-
-        revealObserver.observe(element);
-
-      });
-
-
-    /* Temporary auth buttons */
-
-    document
-      .getElementById("googleLogin")
-      .addEventListener("click", () => {
-
-        document
-          .getElementById("authMessage")
-          .textContent =
-          "Google authentication will be connected next.";
-
-        document
-          .getElementById("authMessage")
-          .className =
-          "auth-message show";
-
-      });
-
-
-    document
-      .getElementById("emailLogin")
-      .addEventListener("click", () => {
-
-        const email =
-          document
-            .getElementById("emailInput")
-            .value
-            .trim();
-
-        const password =
-          document
-            .getElementById("passwordInput")
-            .value;
-
-        const message =
-          document
-            .getElementById("authMessage");
-
-        if(!email || !password){
-
-          message.textContent =
-            "Enter your email and password.";
-
-          message.className =
-            "auth-message show error";
-
-          return;
-
-        }
-
-        message.textContent =
-          "Authentication will be connected to Supabase next.";
-
-        message.className =
-          "auth-message show";
-
-      });
-
-
-    document
-      .getElementById("showSignup")
-      .addEventListener("click", () => {
-
-        document
-          .getElementById("authMessage")
-          .textContent =
-          "Sign-up flow will be connected next.";
-
-        document
-          .getElementById("authMessage")
-          .className =
-          "auth-message show";
-
-      });
-
-  </script>
+  <script src="./src/app.js"></script>
 
 </body>
 </html>
