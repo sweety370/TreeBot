@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>TreePots — Minecraft Bot Cloud</title>
+
+<meta
+ name="description"
+ content="TreePots is a modern Minecraft bot management platform."
+/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
+
+<body>
+
+  <div class="background-grid"></div>
+  <div class="background-glow glow-1"></div>
+  <div class="background-glow glow-2"></div>
+
+  <header class="navbar">
+
+```
+<a href="#" class="brand">
+  <span class="brand-icon">T</span>
+  <span class="brand-name">TreePots</span>
+</a>
+
+<nav class="nav-links">
+  <a href="#features">Features</a>
+  <a href="#locations">Locations</a>
+  <a href="#dashboard-preview">Dashboard</a>
+</nav>
+
+<div class="nav-actions">
+  <button class="nav-login" id="loginButton" type="button">
+    Sign in
+  </button>
+
+  <button class="nav-cta" id="signupButton" type="button">
+    Get started
+  </button>
+</div>
+```
+
+  </header>
+
+  <main>
+
+```
+<section class="hero">
+
+  <div class="hero-badge">
+    <span class="status-dot"></span>
+    Minecraft Bot Infrastructure
+  </div>
+
+  <h1 class="hero-title">
+    Your Minecraft bots.
+    <span>Handled properly.</span>
+  </h1>
+
+  <p class="hero-description">
+    Create, manage and monitor your Minecraft bots
+    from a clean, fast and modern workspace.
+  </p>
+
+  <div class="hero-actions">
+
+    <button
+      class="button-primary"
+      id="heroSignup"
+      type="button"
+    >
+      Create your workspace
+    </button>
+
+    <button
+      class="button-secondary"
+      id="heroDashboard"
+      type="button"
+    >
+      Explore dashboard
+    </button>
+
+  </div>
+
+  <div class="hero-visual">
+
+    <div class="visual-topbar">
+
+      <div class="window-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="visual-url">
+        app.treepots
+      </div>
+
+    </div>
+
+    <div class="visual-content">
+
+      <aside class="visual-sidebar">
+
+        <div class="visual-logo">
+          T
+        </div>
+
+        <div class="visual-nav active">
+          Dashboard
+        </div>
+
+        <div class="visual-nav">
+          Bots
+        </div>
+
+        <div class="visual-nav">
+          Automation
+        </div>
+
+        <div class="visual-nav">
+          Logs
+        </div>
+
+        <div class="visual-nav">
+          Settings
+        </div>
+
+      </aside>
+
+      <div class="visual-main">
+
+        <div class="visual-heading">
+
+          <div>
+            <h2>Your workspace</h2>
+            <p>Manage your Minecraft infrastructure.</p>
+          </div>
+
+          <button class="visual-add">
+            + Add bot
+          </button>
+
+        </div>
+
+        <div class="visual-stats">
+
+          <div class="visual-stat">
+            <small>Active bots</small>
+            <strong>3</strong>
+          </div>
+
+          <div class="visual-stat">
+            <small>Online</small>
+            <strong>2</strong>
+          </div>
+
+          <div class="visual-stat">
+            <small>Connections</small>
+            <strong>3</strong>
+          </div>
+
+        </div>
+
+        <div class="visual-bot">
+
+          <div class="bot-info">
+
+            <div class="bot-avatar">
+              ◈
+            </div>
+
+            <div>
+              <strong>SurvivalBot</strong>
+              <small>play.example.net</small>
+            </div>
+
+          </div>
+
+          <div class="bot-online">
+            <span></span>
+            Online
+          </div>
+
+        </div>
+
+        <div class="visual-bot">
+
+          <div class="bot-info">
+
+            <div class="bot-avatar">
+              ◈
+            </div>
+
+            <div>
+              <strong>LobbyBot</strong>
+              <small>lobby.example.net</small>
+            </div>
+
+          </div>
+
+          <div class="bot-online">
+            <span></span>
+            Online
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="trust">
+
+    <span>
+      <b class="check">✓</b>
+      Simple management
+    </span>
+
+    <span>
+      <b class="check">✓</b>
+      Live monitoring
+    </span>
+
+    <span>
+      <b class="check">✓</b>
+      Automation ready
+    </span>
+
+  </div>
+
+</section>
+
+<section class="section" id="features">
+
+  <div class="section-heading">
+
+    <span>WHY TREEPOTS</span>
+
+    <h2>
+      Everything around your bots,
+      in one place.
+    </h2>
+
+    <p>
+      A focused control center designed for Minecraft
+      bot management and automation.
+    </p>
+
+  </div>
+
+  <div class="feature-grid">
+
+    <article class="feature-card">
+
+      <div class="feature-icon">
+        ⚡
+      </div>
+
+      <h3>
+        Simple management
+      </h3>
+
+      <p>
+        Start, stop and monitor your bots
+        without digging through complicated interfaces.
+      </p>
+
+    </article>
+
+    <article class="feature-card">
+
+      <div class="feature-icon">
+        ◉
+      </div>
+
+      <h3>
+        Live status
+      </h3>
+
+      <p>
+        Keep track of connections and bot states
+        from one clean dashboard.
+      </p>
+
+    </article>
+
+    <article class="feature-card">
+
+      <div class="feature-icon">
+        ⚙
+      </div>
+
+      <h3>
+        Automation ready
+      </h3>
+
+      <p>
+        Build automation around your bots,
+        servers and repetitive tasks.
+      </p>
+
+    </article>
+
+  </div>
+
+</section>
+
+<section class="section" id="locations">
+
+  <div class="section-heading">
+
+    <span>INFRASTRUCTURE</span>
+
+    <h2>
+      Built for global infrastructure.
+    </h2>
+
+    <p>
+      Example locations for the TreePots interface.
+      These are not live infrastructure measurements.
+    </p>
+
+  </div>
+
+  <div class="location-grid">
+
+    <button class="location-card" type="button">
+
+      <div class="location-top">
+        <strong>Germany</strong>
+
+        <span>
+          <i></i>
+          Excellent
+        </span>
+      </div>
+
+      <div class="location-value">
+        18ms
+      </div>
+
+      <div class="location-bottom">
+        Frankfurt
+      </div>
+
+    </button>
+
+    <button class="location-card" type="button">
+
+      <div class="location-top">
+        <strong>Netherlands</strong>
+
+        <span>
+          <i></i>
+          Excellent
+        </span>
+      </div>
+
+      <div class="location-value">
+        21ms
+      </div>
+
+      <div class="location-bottom">
+        Amsterdam
+      </div>
+
+    </button>
+
+    <button class="location-card" type="button">
+
+      <div class="location-top">
+        <strong>Singapore</strong>
+
+        <span>
+          <i></i>
+          Good
+        </span>
+      </div>
+
+      <div class="location-value">
+        48ms
+      </div>
+
+      <div class="location-bottom">
+        Singapore
+      </div>
+
+    </button>
+
+    <button class="location-card" type="button">
+
+      <div class="location-top">
+        <strong>United States</strong>
+
+        <span>
+          <i></i>
+          Good
+        </span>
+      </div>
+
+      <div class="location-value">
+        55ms
+      </div>
+
+      <div class="location-bottom">
+        Virginia
+      </div>
+
+    </button>
+
+  </div>
+
+</section>
+
+<section
+  class="section dashboard-section"
+  id="dashboard-preview"
+>
+
+  <div class="section-heading">
+
+    <span>CONTROL CENTER</span>
+
+    <h2>
+      A dashboard that feels alive.
+    </h2>
+
+    <p>
+      TreePots keeps the important information
+      visible without covering the screen in nonsense.
+    </p>
+
+  </div>
+
+  <div class="dashboard-preview">
+
+    <aside class="dashboard-sidebar">
+
+      <div class="dashboard-brand">
+        <span>T</span>
+        TreePots
+      </div>
+
+      <div class="dashboard-group-title">
+        WORKSPACE
+      </div>
+
+      <button class="dashboard-item active">
+        <span>⌂</span>
+        Dashboard
+      </button>
+
+      <button class="dashboard-item">
+        <span>◈</span>
+        Bots
+      </button>
+
+      <button class="dashboard-item">
+        <span>⚙</span>
+        Automation
+      </button>
+
+      <button class="dashboard-item">
+        <span>▤</span>
+        Logs
+      </button>
+
+      <div class="dashboard-group-title">
+        ACCOUNT
+      </div>
+
+      <button class="dashboard-item">
+        <span>◌</span>
+        Settings
+      </button>
+
+    </aside>
+
+    <div class="dashboard-content">
+
+      <div class="dashboard-title">
+
+        <div>
+          <h3>Dashboard</h3>
+          <p>Your Minecraft workspace</p>
+        </div>
+
+        <button
+          class="small-primary"
+          id="dashboardAddBot"
+        >
+          + Add bot
+        </button>
+
+      </div>
+
+      <div class="dashboard-cards">
+
+        <div class="dashboard-card">
+          <small>Active bots</small>
+          <strong>3</strong>
+        </div>
+
+        <div class="dashboard-card">
+          <small>Online bots</small>
+          <strong>2</strong>
+        </div>
+
+        <div class="dashboard-card">
+          <small>Automations</small>
+          <strong>4</strong>
+        </div>
+
+      </div>
+
+      <div class="dashboard-table">
+
+        <div class="table-head">
+          <span>Bot</span>
+          <span>Server</span>
+          <span>Status</span>
+        </div>
+
+        <div class="table-row">
+
+          <div class="table-bot">
+
+            <div>◈</div>
+
+            <span>
+              SurvivalBot
+            </span>
+
+          </div>
+
+          <span>
+            survival.example.net
+          </span>
+
+          <span class="table-online">
+            ● Online
+          </span>
+
+        </div>
+
+        <div class="table-row">
+
+          <div class="table-bot">
+
+            <div>◈</div>
+
+            <span>
+              LobbyBot
+            </span>
+
+          </div>
+
+          <span>
+            lobby.example.net
+          </span>
+
+          <span class="table-online">
+            ● Online
+          </span>
+
+        </div>
+
+        <div class="table-row">
+
+          <div class="table-bot">
+
+            <div>◈</div>
+
+            <span>
+              AFKBot
+            </span>
+
+          </div>
+
+          <span>
+            afk.example.net
+          </span>
+
+          <span class="table-offline">
+            ● Offline
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="final-cta">
+
+  <span class="section-label">
+    GET STARTED
+  </span>
+
+  <h2>
+    Your bots deserve
+    a better home.
+  </h2>
+
+  <p>
+    Build your TreePots workspace and
+    manage your Minecraft bots from one place.
+  </p>
+
+  <button
+    class="button-primary"
+    id="finalSignup"
+  >
+    Create your workspace
+  </button>
+
+</section>
+```
+
+  </main>
+
+  <footer class="footer">
+    <span>TreePots © 2026</span>
+    <span>Minecraft Bot Infrastructure</span>
+  </footer>
+
+</body>
+</html>
